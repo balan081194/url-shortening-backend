@@ -4,13 +4,9 @@
   "description": "Project for Url Shortening",
   "main": "server.js",
   "scripts": {
-    "setup:env": "npm install && npm install --prefix client",
-    "start": "node server",
-    "server": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "npm run build --prefix client"
+    "start": "nodemon server.js"
+    
   },
   "author": "Nilanjan Deb",
   "license": "MIT",
