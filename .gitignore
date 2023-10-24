@@ -1,0 +1,29 @@
+node_modules
+default.json
+.env
+.vscode
+
+# dependencies
+/client/.pnp
+/client/.pnp.js
+
+# testing
+/client/coverage
+
+# production
+/client/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+
+# Docker Tests
+.dockerignore
+Dockerfile
